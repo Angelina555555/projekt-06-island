@@ -77,6 +77,10 @@ h2 {
   width: 5rem;
 }
 
+.obrazek {
+  width: 100%;
+}
+
 @media (max-width: 860px) {
   .menu {
     text-transform: uppercase;
@@ -85,9 +89,6 @@ h2 {
     flex-direction: column;
     padding: 10px;
     border-bottom: 1px solid silver;
-  }
-  .obrazek {
-    width: 100%;
   }
 
   .uvod,
@@ -108,7 +109,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     padding: 10px;
     border: 1px solid silver;
   }

@@ -77,6 +77,10 @@ h2 {
   width: 5rem;
 }
 
+.obrazek {
+  width: 100%;
+}
+
 @media (max-width: 860px) {
   .menu {
     text-transform: uppercase;
@@ -85,9 +89,6 @@ h2 {
     flex-direction: column;
     padding: 10px;
     border-bottom: 1px solid silver;
-  }
-  .obrazek {
-    width: 100%;
   }
 
   .uvod,
@@ -104,20 +105,12 @@ h2 {
 }
 
 @media (max-width: 960px) {
-  .menu {
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border: 1px solid silver;
-  }
   .zahlavi {
     width: 100%;
   }
   .kontejner-foto {
     display: flex;
-
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }

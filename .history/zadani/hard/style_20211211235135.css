@@ -103,7 +103,7 @@ h2 {
   }
 }
 
-@media (max-width: 960px) {
+@media (min-width: 860px and max-width: 960px) {
   .menu {
     text-transform: uppercase;
     text-align: center;

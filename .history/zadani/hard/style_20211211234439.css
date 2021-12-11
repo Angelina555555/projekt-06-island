@@ -86,9 +86,6 @@ h2 {
     padding: 10px;
     border-bottom: 1px solid silver;
   }
-  .obrazek {
-    width: 100%;
-  }
 
   .uvod,
   .procjet,
@@ -104,11 +101,10 @@ h2 {
 }
 
 @media (max-width: 960px) {
-  .menu {
+  .menu a {
     text-transform: uppercase;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     padding: 10px;
     border: 1px solid silver;
   }
