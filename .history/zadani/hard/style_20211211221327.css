@@ -104,7 +104,6 @@ h2 {
   }
   .kontejner-foto {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-basis: 40%;
   }
 }

@@ -1,0 +1,39 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Old Standard TT", serif;
+}
+
+.paticka {
+  text-align: center;
+  font-size: 14px;
+  color: silver;
+}
+
+.paticka a {
+  color: silver;
+}
+
+h1,
+.popis {
+  color: white;
+}
+
+h1 {
+  font-size: 7opx;
+}
+.zahlavi {
+  background-image: url(/images/island-hlavicka.jpg);
+  min-height: 500px;
+  text-align: center;
+  padding: 40px;
+}
+
+.navbar {
+  color: silver;
+}

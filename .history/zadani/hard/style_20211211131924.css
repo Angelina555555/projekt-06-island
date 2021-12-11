@@ -1,0 +1,62 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Old Standard TT", serif;
+}
+
+.paticka {
+  font-size: 14px;
+  color: silver;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.paticka a,
+.fotoby,
+.fotoby a {
+  color: silver;
+}
+
+h1,
+.popis {
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+}
+.zahlavi {
+  background-image: url(/images/island-hlavicka.jpg);
+  min-height: 500px;
+  text-align: center;
+  padding: 40px;
+}
+
+.navbar {
+  color: silver;
+}
+
+.prvni,
+.druhy,
+.treti,
+.ctvrty,
+.paty {
+  padding: 20px;
+}
+
+@media (min-width: 480px) {
+  .obal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .prvni {
+    min-height: 150px;
+  }
+}

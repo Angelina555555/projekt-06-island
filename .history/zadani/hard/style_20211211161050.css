@@ -10,18 +10,14 @@ html {
 
 body {
   margin: 0;
-  font-family: "Merriweather", serif;
-  background-color: #f5f5f5;
+  font-family: "Old Standard TT", serif;
 }
-.obal {
-  background-color: white;
-}
+
 .paticka {
   font-size: 14px;
   color: silver;
+  background-color: #f5f5f5;
   padding: 20px;
-
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .paticka a,
@@ -33,7 +29,6 @@ body {
 .fotoby,
 .fotoby a {
   text-align: center;
-  padding: 10px;
 }
 h1,
 .popis {
@@ -41,7 +36,6 @@ h1,
 }
 
 h1 {
-  font-family: "Raleway", sans-serif;
   font-size: 100px;
 }
 .zahlavi {
@@ -49,62 +43,40 @@ h1 {
   text-align: center;
   padding: 40px;
 }
-.navbar {
-  padding: 50px 0;
-}
+
 .menu {
   text-decoration: none;
   color: silver;
 }
 
-h2 {
-  font-size: 40px;
-  padding: 10px 20px;
+.prvni,
+.druhy,
+.treti,
+.ctvrty,
+.paty {
+  padding: 20px;
 }
 
-.bold {
-  font-weight: 900;
-}
-.modracara {
-  color: #629edb;
-  margin-left: 0px;
-  height: 7px;
-  width: 5rem;
-}
-
-.uvod,
-.procjet,
-.musitevidet {
-  padding-left: 20px;
-}
-
-.obrazek {
-  width: 100%;
-}
-
-@media (max-width: 860px) {
+@media (min-width: 480px) {
   .menu {
     text-transform: uppercase;
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border-bottom: 1px solid silver;
   }
   .kontejner-foto {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
+
+  .prvni {
+    min-height: 150px;
   }
 }
-
-@media (max-width: 960px) {
-  .zahlavi {
-    width: 100%;
-  }
+@media (min-width: 860px) {
   .kontejner-foto {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: wrap;
   }
 }

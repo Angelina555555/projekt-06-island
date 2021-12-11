@@ -13,15 +13,12 @@ body {
   font-family: "Merriweather", serif;
   background-color: #f5f5f5;
 }
-.obal {
-  background-color: white;
-}
+
 .paticka {
   font-size: 14px;
   color: silver;
-  padding: 20px;
 
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding: 20px;
 }
 
 .paticka a,
@@ -33,7 +30,6 @@ body {
 .fotoby,
 .fotoby a {
   text-align: center;
-  padding: 10px;
 }
 h1,
 .popis {
@@ -58,31 +54,16 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
-  padding: 10px 20px;
+  padding: 10px;
 }
 
-.bold {
-  font-weight: 900;
-}
-.modracara {
+hr {
+  width: 2;
   color: #629edb;
-  margin-left: 0px;
-  height: 7px;
-  width: 5rem;
+  text-align: left;
 }
 
-.uvod,
-.procjet,
-.musitevidet {
-  padding-left: 20px;
-}
-
-.obrazek {
-  width: 100%;
-}
-
-@media (max-width: 860px) {
+@media (min-width: 480px) {
   .menu {
     text-transform: uppercase;
     text-align: center;
@@ -96,15 +77,14 @@ h2 {
     flex-wrap: wrap;
     flex-direction: column;
   }
-}
 
-@media (max-width: 960px) {
-  .zahlavi {
-    width: 100%;
+  .prvni {
+    min-height: 150px;
   }
+}
+@media (min-width: 860px) {
   .kontejner-foto {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: wrap;
   }
 }

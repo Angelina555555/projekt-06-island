@@ -98,13 +98,12 @@ h2 {
   }
 }
 
-@media (max-width: 960px) {
+@media screan (max-width: 960px) {
   .zahlavi {
     width: 100%;
   }
   .kontejner-foto {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-basis: 40%;
   }
 }
