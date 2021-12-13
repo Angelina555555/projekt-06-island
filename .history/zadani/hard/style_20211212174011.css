@@ -1,0 +1,79 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  background-color: #f5f5f5;
+}
+.obal {
+  background-color: white;
+}
+.paticka {
+  font-size: 14px;
+  color: silver;
+  padding: 20px;
+
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.paticka a,
+.fotoby,
+.fotoby a {
+  color: silver;
+}
+
+h1,
+.popis {
+  color: white;
+}
+
+.jana {
+  font-style: italic;
+  color: silver;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+}
+.zahlavi {
+  background-image: url(/images/island-hlavicka.jpg);
+  text-align: center;
+  padding: 40px;
+}
+.navbar {
+  padding: 50px 0;
+}
+.menu {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: silver;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 10px 20px;
+}
+@media (min-width: 480px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    border-bottom: silver 2px 80%;
+  }
+}
+@media (max-width: 860px) {
+  .fotoby,
+  .fotoby a {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .menu {
+    display: flex;
+    direction: inline-block;
+  }
+}

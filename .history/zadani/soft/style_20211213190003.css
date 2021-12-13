@@ -1,0 +1,65 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*
+ BARVY
+ pozadi           #f5f5f5
+ dekorace nadpisů #629edb
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* HLAVICKA */
+
+.titulek {
+  font-size: 100px;
+  font-family: "Raleway", serif;
+}
+
+.hlavicka {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-image: url(/images/island-hlavicka.jpg);
+}
+
+.autor {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* MENU */
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+.menu {
+  text-decoration: none;
+  color: silver;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* OBSAH */
+
+/* FOTOGALERIE */
+
+/* PATICKA */
+
+@media (min-width: 960px) {
+  .fotogalerie {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

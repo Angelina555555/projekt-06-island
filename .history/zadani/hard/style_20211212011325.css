@@ -1,0 +1,123 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  background-color: #f5f5f5;
+}
+.obal {
+  background-color: white;
+}
+.paticka {
+  font-size: 14px;
+  color: silver;
+  padding: 20px;
+
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.paticka a,
+.fotoby,
+.fotoby a {
+  color: silver;
+}
+
+.fotoby,
+.fotoby a {
+  text-align: center;
+  padding: 10px;
+}
+h1,
+.popis {
+  color: white;
+}
+
+.popisjana {
+  font-style: italic;
+  color: silver;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+}
+.zahlavi {
+  background-image: url(/images/island-hlavicka.jpg);
+  text-align: center;
+  padding: 40px;
+}
+.navbar {
+  padding: 50px 0;
+}
+.menu {
+  text-decoration: none;
+  color: silver;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 10px 20px;
+}
+
+.bold {
+  font-weight: 900;
+}
+.modracara {
+  color: #629edb;
+  margin-left: 0px;
+  height: 7px;
+  width: 5rem;
+}
+
+@media (max-width: 480px) {
+  .a.menu {
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+  }
+  .obrazek {
+    width: 100%;
+  }
+
+  .uvod,
+  .proc,
+  .co {
+    padding-left: 20px;
+  }
+
+  .kontejner-foto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 860px) {
+  .a.menu {
+    display: inline-block;
+    border-style: solid 2px silver;
+  }
+}
+
+@media (min-width: 960px) {
+  .a.menu {
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid silver;
+  }
+
+  .kontejner-foto {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+  }
+}
