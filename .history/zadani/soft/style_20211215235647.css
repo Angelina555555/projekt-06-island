@@ -134,6 +134,10 @@ h2 {
   }
 }
 @media (min-width: 960px) {
+  .menu {
+    position: relative;
+    left: -370px;
+  }
   li {
     display: flex;
     flex-direction: column;
@@ -151,7 +155,6 @@ h2 {
   }
 
   .uvod {
-    float: left;
   }
   .galerie {
     display: flex;

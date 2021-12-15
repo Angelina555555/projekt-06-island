@@ -137,7 +137,6 @@ h2 {
   li {
     display: flex;
     flex-direction: column;
-    padding: 5px;
   }
   .obal {
     width: 90%;
@@ -151,7 +150,6 @@ h2 {
   }
 
   .uvod {
-    float: left;
   }
   .galerie {
     display: flex;

@@ -71,10 +71,7 @@ ul {
 ul a {
   text-decoration: none;
   color: silver;
-}
-
-li {
-  padding: 5px;
+  border: 1px solid silver;
 }
 .menu {
   text-decoration: none;
@@ -99,10 +96,6 @@ h2 {
 
 /* PATICKA */
 @media (min-width: 860px) {
-  li {
-    display: inline-block;
-    padding: 20px;
-  }
   .galerie {
     display: flex;
     flex-wrap: wrap;
@@ -134,11 +127,6 @@ h2 {
   }
 }
 @media (min-width: 960px) {
-  li {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
   .obal {
     width: 90%;
     position: relative;
@@ -151,7 +139,6 @@ h2 {
   }
 
   .uvod {
-    float: left;
   }
   .galerie {
     display: flex;

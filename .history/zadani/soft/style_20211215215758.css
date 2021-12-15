@@ -36,7 +36,7 @@ body {
 }
 
 .hlavicka {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   color: white;
   background-image: url(/images/island-hlavicka.jpg);
@@ -66,15 +66,7 @@ body {
 
 ul {
   list-style-type: none;
-}
-
-ul a {
   text-decoration: none;
-  color: silver;
-}
-
-li {
-  padding: 5px;
 }
 .menu {
   text-decoration: none;
@@ -92,33 +84,27 @@ h2 {
   font-size: 30px;
 }
 /* FOTOGALERIE */
-.galerie {
-  display: flex;
-  flex-direction: column;
+.fotogalerie {
+  width: 100%;
 }
 
+.foto {
+  padding: 0;
+}
 /* PATICKA */
 @media (min-width: 860px) {
-  li {
-    display: inline-block;
-    padding: 20px;
-  }
   .galerie {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
   }
 
   .foto {
     margin: 0;
-    min-width: 50%;
+    min-width: 30%;
   }
   .foto {
     overflow: hidden;
     transition: transform 0.3s ease;
-  }
-  .foto:hover {
-    transform: scale(1.2);
   }
 
   .popisek {
@@ -134,32 +120,12 @@ h2 {
   }
 }
 @media (min-width: 960px) {
-  li {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-  .obal {
-    width: 90%;
-    position: relative;
-    top: -50px;
-    left: 55px;
-  }
-
-  .co {
-    padding-left: 100px;
-  }
-
-  .uvod {
-    float: left;
-  }
   .galerie {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
   }
   .foto {
-    min-width: 10%;
+    min-width: 20%;
   }
   .popisek {
     opacity: 0;

@@ -134,6 +134,11 @@ h2 {
   }
 }
 @media (min-width: 960px) {
+  .menu {
+    position: relative;
+    left: -370px;
+  }
+
   li {
     display: flex;
     flex-direction: column;
