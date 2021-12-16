@@ -91,7 +91,6 @@ h2 {
 h2 {
   font-size: 30px;
 }
-
 /* FOTOGALERIE */
 .galerie {
   display: flex;
@@ -141,8 +140,9 @@ h2 {
     padding: 5px;
   }
   .menu {
-    padding: 30px 30px 160px 30px;
+    padding-top: 30px;
     float: left;
+    padding-bottom: 70px;
   }
 
   .uvod {

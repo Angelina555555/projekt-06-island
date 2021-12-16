@@ -92,6 +92,12 @@ h2 {
   font-size: 30px;
 }
 
+h2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+}
+
 /* FOTOGALERIE */
 .galerie {
   display: flex;

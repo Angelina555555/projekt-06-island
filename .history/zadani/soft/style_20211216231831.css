@@ -92,6 +92,10 @@ h2 {
   font-size: 30px;
 }
 
+h2::after {
+  border-bottom: 1px solid blue;
+}
+
 /* FOTOGALERIE */
 .galerie {
   display: flex;
