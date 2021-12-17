@@ -87,15 +87,6 @@ h2 {
   position: relative;
 }
 
-h2:after {
-  position: absolute;
-  bottom: -5px;
-  left: calc(5% - 1%);
-  width: 20%;
-  border-bottom: 4px solid #629edb;
-  content: "";
-}
-
 /* FOTOGALERIE */
 .galerie {
   display: flex;

@@ -84,23 +84,14 @@ h2 {
 }
 h2 {
   font-size: 30px;
-  position: relative;
-}
-
-h2:after {
-  position: absolute;
-  bottom: -5px;
-  left: calc(5% - 1%);
-  width: 20%;
   border-bottom: 4px solid #629edb;
-  content: "";
+  border: inline end 10px;
 }
 
 /* FOTOGALERIE */
 .galerie {
   display: flex;
   flex-direction: column;
-  margin: 0;
 }
 
 /* PATICKA */
@@ -126,7 +117,7 @@ h2:after {
   }
   .galerie {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
   }
@@ -186,13 +177,12 @@ h2:after {
 
   .galerie {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin: 0;
   }
 
   .foto {
-    width: 50%;
+    width: 30%;
   }
 
   .popisek {

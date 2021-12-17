@@ -92,7 +92,7 @@ h2:after {
   bottom: -5px;
   left: calc(5% - 1%);
   width: 20%;
-  border-bottom: 4px solid #629edb;
+  border-bottom: 3px solid #629edb;
   content: "";
 }
 

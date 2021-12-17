@@ -84,16 +84,8 @@ h2 {
 }
 h2 {
   font-size: 30px;
-  position: relative;
-}
-
-h2:after {
-  position: absolute;
-  bottom: -5px;
-  left: calc(5% - 1%);
-  width: 20%;
   border-bottom: 4px solid #629edb;
-  content: "";
+  border: inline end 10px;
 }
 
 /* FOTOGALERIE */
@@ -130,7 +122,9 @@ h2:after {
     flex-direction: row;
     margin: 0;
   }
-
+  .pic {
+    width: 30%;
+  }
   .foto {
     overflow: hidden;
     transition: transform 0.3s ease;
