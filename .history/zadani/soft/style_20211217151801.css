@@ -53,20 +53,25 @@ body {
   text-align: center;
 }
 
+.paticka {
+  padding-top: 20px;
+}
+
+.paticka,
+.paticka a {
+  color: silver;
+  background-color: #f5f5f5;
+}
 /* MENU */
 
 ul {
   margin-top: 0;
+
   list-style-type: none;
 }
 ul a {
   text-decoration: none;
   color: silver;
-}
-
-li {
-  padding: 10px;
-  border-bottom: 1px solid silver;
 }
 
 .menu {
@@ -93,20 +98,12 @@ h2 {
 }
 
 /* PATICKA */
-
-.paticka {
-  padding-top: 20px;
-}
-.paticka,
-.paticka a {
-  color: silver;
-  background-color: #f5f5f5;
-}
-
 @media (min-width: 860px) {
   li {
     display: inline-block;
     padding: 10px;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
   }
 
   figure {
@@ -130,7 +127,7 @@ h2 {
   .popisek {
     font-size: 10px;
     position: relative;
-    right: -80px;
+    right: -70px;
     bottom: 50px;
     opacity: 0;
     transition: transform 0.3s ease;
@@ -140,12 +137,12 @@ h2 {
     opacity: 1;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 960px) {
   li {
     text-align: left;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
     border-bottom: 1px solid silver;
   }
   .menu {

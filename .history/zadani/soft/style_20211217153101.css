@@ -51,6 +51,7 @@ body {
 .popisek a {
   color: silver;
   text-align: center;
+  position: relative;
 }
 
 /* MENU */
@@ -130,7 +131,7 @@ h2 {
   .popisek {
     font-size: 10px;
     position: relative;
-    right: -80px;
+    right: -70px;
     bottom: 50px;
     opacity: 0;
     transition: transform 0.3s ease;
@@ -140,7 +141,7 @@ h2 {
     opacity: 1;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 960px) {
   li {
     text-align: left;
     display: flex;
