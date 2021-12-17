@@ -97,15 +97,12 @@ h2:after {
 }
 
 /* FOTOGALERIE */
-
 .galerie {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
-.foto {
-  width: 100%;
-}
+
 /* PATICKA */
 
 .paticka {
@@ -135,7 +132,7 @@ h2:after {
   }
 
   .foto {
-    flex-basis: calc(50%);
+    width: 40%;
     overflow: hidden;
     transition: transform 0.3s ease;
   }
@@ -188,9 +185,6 @@ h2:after {
     padding-right: 200px;
   }
 
-  .foto {
-    flex-basis: calc(100% / 3);
-  }
   .galerie {
     display: flex;
     flex-wrap: wrap;

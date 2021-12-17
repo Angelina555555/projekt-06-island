@@ -97,15 +97,12 @@ h2:after {
 }
 
 /* FOTOGALERIE */
-
 .galerie {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
-.foto {
-  width: 100%;
-}
+
 /* PATICKA */
 
 .paticka {
@@ -129,13 +126,14 @@ h2:after {
   }
   .galerie {
     display: flex;
-    flex-wrap: wrap;
+    flex: wrap;
     flex-direction: row;
     margin: 0;
   }
 
   .foto {
-    flex-basis: calc(50%);
+    margin: 5px;
+    width: 30%;
     overflow: hidden;
     transition: transform 0.3s ease;
   }
@@ -188,12 +186,9 @@ h2:after {
     padding-right: 200px;
   }
 
-  .foto {
-    flex-basis: calc(100% / 3);
-  }
   .galerie {
     display: flex;
-    flex-wrap: wrap;
+    flex: wrap;
     flex-direction: row;
     margin: 0;
   }
